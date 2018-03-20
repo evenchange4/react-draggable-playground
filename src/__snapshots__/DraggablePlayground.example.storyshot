@@ -1,0 +1,4868 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots DraggablePlayground [DraggableItem] API 1`] = `
+<DraggableParent
+  height={300}
+  style={
+    Object {
+      "backgroundColor": "aliceblue",
+    }
+  }
+  width={300}
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "aliceblue",
+        "height": 300,
+        "position": "relative",
+        "width": 300,
+      }
+    }
+  >
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 0,
+          "y": 0,
+        }
+      }
+      disabled={false}
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 0,
+            "y": 0,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div>
+            item
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+  </div>
+</DraggableParent>
+`;
+
+exports[`Storyshots DraggablePlayground [DraggableItem] With defaultPosition props 1`] = `
+<DraggableParent
+  height={300}
+  style={
+    Object {
+      "backgroundColor": "aliceblue",
+    }
+  }
+  width={300}
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "aliceblue",
+        "height": 300,
+        "position": "relative",
+        "width": 300,
+      }
+    }
+  >
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 100,
+          "y": 100,
+        }
+      }
+      disabled={false}
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 100,
+            "y": 100,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+  </div>
+</DraggableParent>
+`;
+
+exports[`Storyshots DraggablePlayground [DraggableItem] With disabled props 1`] = `
+<DraggableParent
+  height={300}
+  style={
+    Object {
+      "backgroundColor": "aliceblue",
+    }
+  }
+  width={300}
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "aliceblue",
+        "height": 300,
+        "position": "relative",
+        "width": 300,
+      }
+    }
+  >
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 0,
+          "y": 0,
+        }
+      }
+      disabled={false}
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 0,
+            "y": 0,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+                "cursor": "move",
+              }
+            }
+          >
+            item 1
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 100,
+          "y": 100,
+        }
+      }
+      disabled={true}
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 100,
+            "y": 100,
+          }
+        }
+        disabled={true}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+                "cursor": "auto",
+              }
+            }
+          >
+            disabled item
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+  </div>
+</DraggableParent>
+`;
+
+exports[`Storyshots DraggablePlayground [DraggableItem] With isDragging props 1`] = `
+<DraggableParent
+  height={300}
+  style={
+    Object {
+      "backgroundColor": "aliceblue",
+    }
+  }
+  width={300}
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "aliceblue",
+        "height": 300,
+        "position": "relative",
+        "width": 300,
+      }
+    }
+  >
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 0,
+          "y": 0,
+        }
+      }
+      disabled={false}
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 0,
+            "y": 0,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "transparent",
+              }
+            }
+          >
+            item
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+  </div>
+</DraggableParent>
+`;
+
+exports[`Storyshots DraggablePlayground [DraggableItem] With onPositionChange props 1`] = `
+<DraggableParent
+  height={300}
+  style={
+    Object {
+      "backgroundColor": "aliceblue",
+    }
+  }
+  width={300}
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "aliceblue",
+        "height": 300,
+        "position": "relative",
+        "width": 300,
+      }
+    }
+  >
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 0,
+          "y": 0,
+        }
+      }
+      disabled={false}
+      onPositionChange={[Function]}
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 0,
+            "y": 0,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+  </div>
+</DraggableParent>
+`;
+
+exports[`Storyshots DraggablePlayground [DraggableItem] With two items 1`] = `
+<DraggableParent
+  height={300}
+  style={
+    Object {
+      "backgroundColor": "aliceblue",
+    }
+  }
+  width={300}
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "aliceblue",
+        "height": 300,
+        "position": "relative",
+        "width": 300,
+      }
+    }
+  >
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 0,
+          "y": 0,
+        }
+      }
+      disabled={false}
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 0,
+            "y": 0,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div>
+            item 1
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 0,
+          "y": 0,
+        }
+      }
+      disabled={false}
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 0,
+            "y": 0,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div>
+            item 2
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+  </div>
+</DraggableParent>
+`;
+
+exports[`Storyshots DraggablePlayground [DraggableParent] With 100 items 1`] = `
+<DraggableParent
+  height={350}
+  style={
+    Object {
+      "backgroundColor": "aliceblue",
+    }
+  }
+  width={350}
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "aliceblue",
+        "height": 350,
+        "position": "relative",
+        "width": 350,
+      }
+    }
+  >
+    <img
+      alt="img"
+      src="http://via.placeholder.com/350x350"
+      style={
+        Object {
+          "pointerEvents": "none",
+          "position": "absolute",
+        }
+      }
+    />
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 0,
+          "y": 0,
+        }
+      }
+      disabled={false}
+      key="0"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 0,
+            "y": 0,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            0
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 2,
+          "y": 2,
+        }
+      }
+      disabled={false}
+      key="1"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 2,
+            "y": 2,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            1
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 4,
+          "y": 4,
+        }
+      }
+      disabled={false}
+      key="2"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 4,
+            "y": 4,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            2
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 6,
+          "y": 6,
+        }
+      }
+      disabled={false}
+      key="3"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 6,
+            "y": 6,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            3
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 8,
+          "y": 8,
+        }
+      }
+      disabled={false}
+      key="4"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 8,
+            "y": 8,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            4
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 10,
+          "y": 10,
+        }
+      }
+      disabled={false}
+      key="5"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 10,
+            "y": 10,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            5
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 12,
+          "y": 12,
+        }
+      }
+      disabled={false}
+      key="6"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 12,
+            "y": 12,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            6
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 14,
+          "y": 14,
+        }
+      }
+      disabled={false}
+      key="7"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 14,
+            "y": 14,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            7
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 16,
+          "y": 16,
+        }
+      }
+      disabled={false}
+      key="8"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 16,
+            "y": 16,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            8
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 18,
+          "y": 18,
+        }
+      }
+      disabled={false}
+      key="9"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 18,
+            "y": 18,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            9
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 20,
+          "y": 20,
+        }
+      }
+      disabled={false}
+      key="10"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 20,
+            "y": 20,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            10
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 22,
+          "y": 22,
+        }
+      }
+      disabled={false}
+      key="11"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 22,
+            "y": 22,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            11
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 24,
+          "y": 24,
+        }
+      }
+      disabled={false}
+      key="12"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 24,
+            "y": 24,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            12
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 26,
+          "y": 26,
+        }
+      }
+      disabled={false}
+      key="13"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 26,
+            "y": 26,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            13
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 28,
+          "y": 28,
+        }
+      }
+      disabled={false}
+      key="14"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 28,
+            "y": 28,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            14
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 30,
+          "y": 30,
+        }
+      }
+      disabled={false}
+      key="15"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 30,
+            "y": 30,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            15
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 32,
+          "y": 32,
+        }
+      }
+      disabled={false}
+      key="16"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 32,
+            "y": 32,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            16
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 34,
+          "y": 34,
+        }
+      }
+      disabled={false}
+      key="17"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 34,
+            "y": 34,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            17
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 36,
+          "y": 36,
+        }
+      }
+      disabled={false}
+      key="18"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 36,
+            "y": 36,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            18
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 38,
+          "y": 38,
+        }
+      }
+      disabled={false}
+      key="19"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 38,
+            "y": 38,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            19
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 40,
+          "y": 40,
+        }
+      }
+      disabled={false}
+      key="20"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 40,
+            "y": 40,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            20
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 42,
+          "y": 42,
+        }
+      }
+      disabled={false}
+      key="21"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 42,
+            "y": 42,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            21
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 44,
+          "y": 44,
+        }
+      }
+      disabled={false}
+      key="22"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 44,
+            "y": 44,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            22
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 46,
+          "y": 46,
+        }
+      }
+      disabled={false}
+      key="23"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 46,
+            "y": 46,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            23
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 48,
+          "y": 48,
+        }
+      }
+      disabled={false}
+      key="24"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 48,
+            "y": 48,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            24
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 50,
+          "y": 50,
+        }
+      }
+      disabled={false}
+      key="25"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 50,
+            "y": 50,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            25
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 52,
+          "y": 52,
+        }
+      }
+      disabled={false}
+      key="26"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 52,
+            "y": 52,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            26
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 54,
+          "y": 54,
+        }
+      }
+      disabled={false}
+      key="27"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 54,
+            "y": 54,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            27
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 56,
+          "y": 56,
+        }
+      }
+      disabled={false}
+      key="28"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 56,
+            "y": 56,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            28
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 58,
+          "y": 58,
+        }
+      }
+      disabled={false}
+      key="29"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 58,
+            "y": 58,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            29
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 60,
+          "y": 60,
+        }
+      }
+      disabled={false}
+      key="30"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 60,
+            "y": 60,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            30
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 62,
+          "y": 62,
+        }
+      }
+      disabled={false}
+      key="31"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 62,
+            "y": 62,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            31
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 64,
+          "y": 64,
+        }
+      }
+      disabled={false}
+      key="32"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 64,
+            "y": 64,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            32
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 66,
+          "y": 66,
+        }
+      }
+      disabled={false}
+      key="33"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 66,
+            "y": 66,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            33
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 68,
+          "y": 68,
+        }
+      }
+      disabled={false}
+      key="34"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 68,
+            "y": 68,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            34
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 70,
+          "y": 70,
+        }
+      }
+      disabled={false}
+      key="35"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 70,
+            "y": 70,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            35
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 72,
+          "y": 72,
+        }
+      }
+      disabled={false}
+      key="36"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 72,
+            "y": 72,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            36
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 74,
+          "y": 74,
+        }
+      }
+      disabled={false}
+      key="37"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 74,
+            "y": 74,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            37
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 76,
+          "y": 76,
+        }
+      }
+      disabled={false}
+      key="38"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 76,
+            "y": 76,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            38
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 78,
+          "y": 78,
+        }
+      }
+      disabled={false}
+      key="39"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 78,
+            "y": 78,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            39
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 80,
+          "y": 80,
+        }
+      }
+      disabled={false}
+      key="40"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 80,
+            "y": 80,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            40
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 82,
+          "y": 82,
+        }
+      }
+      disabled={false}
+      key="41"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 82,
+            "y": 82,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            41
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 84,
+          "y": 84,
+        }
+      }
+      disabled={false}
+      key="42"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 84,
+            "y": 84,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            42
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 86,
+          "y": 86,
+        }
+      }
+      disabled={false}
+      key="43"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 86,
+            "y": 86,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            43
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 88,
+          "y": 88,
+        }
+      }
+      disabled={false}
+      key="44"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 88,
+            "y": 88,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            44
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 90,
+          "y": 90,
+        }
+      }
+      disabled={false}
+      key="45"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 90,
+            "y": 90,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            45
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 92,
+          "y": 92,
+        }
+      }
+      disabled={false}
+      key="46"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 92,
+            "y": 92,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            46
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 94,
+          "y": 94,
+        }
+      }
+      disabled={false}
+      key="47"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 94,
+            "y": 94,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            47
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 96,
+          "y": 96,
+        }
+      }
+      disabled={false}
+      key="48"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 96,
+            "y": 96,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            48
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 98,
+          "y": 98,
+        }
+      }
+      disabled={false}
+      key="49"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 98,
+            "y": 98,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            49
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 100,
+          "y": 100,
+        }
+      }
+      disabled={false}
+      key="50"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 100,
+            "y": 100,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            50
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 102,
+          "y": 102,
+        }
+      }
+      disabled={false}
+      key="51"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 102,
+            "y": 102,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            51
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 104,
+          "y": 104,
+        }
+      }
+      disabled={false}
+      key="52"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 104,
+            "y": 104,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            52
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 106,
+          "y": 106,
+        }
+      }
+      disabled={false}
+      key="53"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 106,
+            "y": 106,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            53
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 108,
+          "y": 108,
+        }
+      }
+      disabled={false}
+      key="54"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 108,
+            "y": 108,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            54
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 110,
+          "y": 110,
+        }
+      }
+      disabled={false}
+      key="55"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 110,
+            "y": 110,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            55
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 112,
+          "y": 112,
+        }
+      }
+      disabled={false}
+      key="56"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 112,
+            "y": 112,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            56
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 114,
+          "y": 114,
+        }
+      }
+      disabled={false}
+      key="57"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 114,
+            "y": 114,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            57
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 116,
+          "y": 116,
+        }
+      }
+      disabled={false}
+      key="58"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 116,
+            "y": 116,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            58
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 118,
+          "y": 118,
+        }
+      }
+      disabled={false}
+      key="59"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 118,
+            "y": 118,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            59
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 120,
+          "y": 120,
+        }
+      }
+      disabled={false}
+      key="60"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 120,
+            "y": 120,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            60
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 122,
+          "y": 122,
+        }
+      }
+      disabled={false}
+      key="61"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 122,
+            "y": 122,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            61
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 124,
+          "y": 124,
+        }
+      }
+      disabled={false}
+      key="62"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 124,
+            "y": 124,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            62
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 126,
+          "y": 126,
+        }
+      }
+      disabled={false}
+      key="63"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 126,
+            "y": 126,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            63
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 128,
+          "y": 128,
+        }
+      }
+      disabled={false}
+      key="64"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 128,
+            "y": 128,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            64
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 130,
+          "y": 130,
+        }
+      }
+      disabled={false}
+      key="65"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 130,
+            "y": 130,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            65
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 132,
+          "y": 132,
+        }
+      }
+      disabled={false}
+      key="66"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 132,
+            "y": 132,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            66
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 134,
+          "y": 134,
+        }
+      }
+      disabled={false}
+      key="67"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 134,
+            "y": 134,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            67
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 136,
+          "y": 136,
+        }
+      }
+      disabled={false}
+      key="68"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 136,
+            "y": 136,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            68
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 138,
+          "y": 138,
+        }
+      }
+      disabled={false}
+      key="69"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 138,
+            "y": 138,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            69
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 140,
+          "y": 140,
+        }
+      }
+      disabled={false}
+      key="70"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 140,
+            "y": 140,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            70
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 142,
+          "y": 142,
+        }
+      }
+      disabled={false}
+      key="71"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 142,
+            "y": 142,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            71
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 144,
+          "y": 144,
+        }
+      }
+      disabled={false}
+      key="72"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 144,
+            "y": 144,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            72
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 146,
+          "y": 146,
+        }
+      }
+      disabled={false}
+      key="73"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 146,
+            "y": 146,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            73
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 148,
+          "y": 148,
+        }
+      }
+      disabled={false}
+      key="74"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 148,
+            "y": 148,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            74
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 150,
+          "y": 150,
+        }
+      }
+      disabled={false}
+      key="75"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 150,
+            "y": 150,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            75
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 152,
+          "y": 152,
+        }
+      }
+      disabled={false}
+      key="76"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 152,
+            "y": 152,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            76
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 154,
+          "y": 154,
+        }
+      }
+      disabled={false}
+      key="77"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 154,
+            "y": 154,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            77
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 156,
+          "y": 156,
+        }
+      }
+      disabled={false}
+      key="78"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 156,
+            "y": 156,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            78
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 158,
+          "y": 158,
+        }
+      }
+      disabled={false}
+      key="79"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 158,
+            "y": 158,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            79
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 160,
+          "y": 160,
+        }
+      }
+      disabled={false}
+      key="80"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 160,
+            "y": 160,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            80
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 162,
+          "y": 162,
+        }
+      }
+      disabled={false}
+      key="81"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 162,
+            "y": 162,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            81
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 164,
+          "y": 164,
+        }
+      }
+      disabled={false}
+      key="82"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 164,
+            "y": 164,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            82
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 166,
+          "y": 166,
+        }
+      }
+      disabled={false}
+      key="83"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 166,
+            "y": 166,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            83
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 168,
+          "y": 168,
+        }
+      }
+      disabled={false}
+      key="84"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 168,
+            "y": 168,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            84
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 170,
+          "y": 170,
+        }
+      }
+      disabled={false}
+      key="85"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 170,
+            "y": 170,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            85
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 172,
+          "y": 172,
+        }
+      }
+      disabled={false}
+      key="86"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 172,
+            "y": 172,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            86
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 174,
+          "y": 174,
+        }
+      }
+      disabled={false}
+      key="87"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 174,
+            "y": 174,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            87
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 176,
+          "y": 176,
+        }
+      }
+      disabled={false}
+      key="88"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 176,
+            "y": 176,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            88
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 178,
+          "y": 178,
+        }
+      }
+      disabled={false}
+      key="89"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 178,
+            "y": 178,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            89
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 180,
+          "y": 180,
+        }
+      }
+      disabled={false}
+      key="90"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 180,
+            "y": 180,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            90
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 182,
+          "y": 182,
+        }
+      }
+      disabled={false}
+      key="91"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 182,
+            "y": 182,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            91
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 184,
+          "y": 184,
+        }
+      }
+      disabled={false}
+      key="92"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 184,
+            "y": 184,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            92
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 186,
+          "y": 186,
+        }
+      }
+      disabled={false}
+      key="93"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 186,
+            "y": 186,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            93
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 188,
+          "y": 188,
+        }
+      }
+      disabled={false}
+      key="94"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 188,
+            "y": 188,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            94
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 190,
+          "y": 190,
+        }
+      }
+      disabled={false}
+      key="95"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 190,
+            "y": 190,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            95
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 192,
+          "y": 192,
+        }
+      }
+      disabled={false}
+      key="96"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 192,
+            "y": 192,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            96
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 194,
+          "y": 194,
+        }
+      }
+      disabled={false}
+      key="97"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 194,
+            "y": 194,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            97
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 196,
+          "y": 196,
+        }
+      }
+      disabled={false}
+      key="98"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 196,
+            "y": 196,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            98
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 198,
+          "y": 198,
+        }
+      }
+      disabled={false}
+      key="99"
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 198,
+            "y": 198,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item 
+            99
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+  </div>
+</DraggableParent>
+`;
+
+exports[`Storyshots DraggablePlayground [DraggableParent] With image children 1`] = `
+<DraggableParent
+  height={350}
+  style={
+    Object {
+      "backgroundColor": "aliceblue",
+    }
+  }
+  width={350}
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "aliceblue",
+        "height": 350,
+        "position": "relative",
+        "width": 350,
+      }
+    }
+  >
+    <img
+      alt="img"
+      src="http://via.placeholder.com/350x350"
+      style={
+        Object {
+          "pointerEvents": "none",
+          "position": "absolute",
+        }
+      }
+    />
+    <DraggableItem
+      defaultPosition={
+        Object {
+          "x": 0,
+          "y": 0,
+        }
+      }
+      disabled={false}
+      onPositionChange={[Function]}
+    >
+      <mock-react-draggable
+        bounds="parent"
+        defaultPosition={
+          Object {
+            "x": 0,
+            "y": 0,
+          }
+        }
+        disabled={false}
+        onStart={[Function]}
+        onStop={[Function]}
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "position": "absolute",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "antiquewhite",
+              }
+            }
+          >
+            item
+          </div>
+        </div>
+      </mock-react-draggable>
+    </DraggableItem>
+  </div>
+</DraggableParent>
+`;
